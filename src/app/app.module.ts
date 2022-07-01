@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   // Liste de tous les composants
@@ -14,6 +15,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   // Permet de déclarer tous les modules nécessaires d'ailleurs
   imports: [
     BrowserModule,
+    FormsModule,
     PokemonModule,
     AppRoutingModule
   ],
